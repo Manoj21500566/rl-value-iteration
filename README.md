@@ -69,7 +69,9 @@ The algorithm is as follows:
 2)Repeat until convergence:
 
        Initialize aaction-value function Q(s, a) arbitrarily for all states s and actions a.
+       
        For all the states s and all the action a of every state:
+       
              Update the action-value function Q(s, a) using the Bellman equation.
              Take the value function V(s) to be the maximum of Q(s, a) over all actions a.
              Check if the maximum difference between Old V and new V is less than theta.
@@ -77,6 +79,7 @@ The algorithm is as follows:
 3)If the maximum difference between Old V and new V is greater than theta, then
        Update the value function V with the maximum action-value from Q.
        Go to step 2.
+       
 4)The optimal policy can be constructed by taking the argmax of the action-value function Q(s, a) over all actions a.
 
 5)Return the optimal policy and the optimal value function.
