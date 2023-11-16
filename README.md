@@ -1,4 +1,6 @@
-## EX 4        
+## EX 4    
+
+
 #                            VALUE ITERATION ALGORITHM
 
 ## AIM
