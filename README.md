@@ -1,4 +1,4 @@
-# VALUE ITERATION ALGORITHM
+# EX 4         VALUE ITERATION ALGORITHM
 
 ## AIM
 To develop a Python program to find the optimal policy for the given MDP using the value iteration algorithm.
